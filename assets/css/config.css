@@ -1,0 +1,11 @@
+:root {
+    --dark-brown: #260F06; 
+    --light-brown: #50352a; 
+    --light-brown-hover: #50352a73; 
+    --dark-red: #721E05; 
+    --light-grey: #7B868C; 
+    --dark-grey: #3B3C40; 
+
+    --font-seymour-one : 'Seymour One', sans-serif;
+    --font-kanit : 'Kanit', sans-serif;
+}
