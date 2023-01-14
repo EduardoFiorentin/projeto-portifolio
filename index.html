@@ -26,7 +26,7 @@
     <header class="header">
         <nav>
             <ul class="menu__navbar">
-                <li class="menu__link"><a href="">Inicio</a></li>
+                <li class="menu__link" onclick="Reload"><a href="">Inicio</a></li>
                 <li class="menu__link"><a href="#about">Sobre mim</a></li>
                 <li class="menu__link"><a href="">Projetos</a></li>
                 <li class="menu__link"><a href="">Habilidades</a></li>
@@ -73,12 +73,20 @@
         </div>
         <div class="about__cards">
             <div class="about__card">
-                <div class="prog">
-                    <div class="prog-int"></div>
+                <div class="about__card-prog1">
+                    <div class="about__card-prog2">
+                        <div class="about__card-prog-int">
+                        </div>
+                    </div>  
                 </div>
-                <h4>Titulo</h4>
+                <h2 class="card-percent">70%</h2>
             </div>
         </div>
     </section>
+    <script>
+        function Reload() {
+            window.location.reload(); 
+        }
+    </script>
 </body>
 </html>
