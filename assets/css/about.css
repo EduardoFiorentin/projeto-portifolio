@@ -3,6 +3,11 @@
     height: 100vh;
 }
 
+
+
+
+
+
 .about__card {
     display: inline-block;
     position: relative;
@@ -48,4 +53,17 @@
     background-color: var(--black);
     border-radius: 100vw;
     border: 1px solid var(--red);
+}
+
+.card-items {
+    width: 50px;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translateX(50%) translateY(-70%);
+}
+.card__items-img {
+    height: 50px;
+    width: 50px;
 }
