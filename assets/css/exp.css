@@ -9,6 +9,7 @@
     display: flex;
     max-width: 700px;
     align-self: center;
+    margin-top: 40px;
 }
 .exp__card {
     color: white;

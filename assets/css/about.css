@@ -1,6 +1,6 @@
 .about {
     background-color: var(--black);
-    height: 100vh;
+    margin-bottom: 40px;
 }
 
 
@@ -27,13 +27,11 @@
 }
 .about__img-info-cont {
     margin-left: 200px;
-    position: relative;
 }
 .about__cv {
     height: 60px;
     width: 140px;
-    align-self: flex-end;
-    margin-left: -35%;
+    margin-left: 100px;
     border-radius: 30px;
     font-weight: bold;
     font-size: 1.1rem;
@@ -42,6 +40,8 @@
     font-family: var(--font-seymour-one);
     cursor: pointer;
     border: 2px solid white;
+    align-self: center; 
+    justify-self: flex-end;
 }
 .about__stat {
     color: white;
@@ -49,7 +49,9 @@
     line-height: 2rem;
     font-size: 1rem;
     margin-left: 200px;
-
+}
+.about__contacts {
+    margin-top: 30px;
 }
 .about__stat-name {
     font-weight: bold;

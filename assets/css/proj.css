@@ -3,3 +3,16 @@
     min-height: 100vh;
     padding-top: 100px;
 }
+
+.proj_cards {
+    display: flex;
+    max-width: 700px;
+    align-self: center;
+    margin-top: 40px;
+    /* flex-direction: row; */
+}
+
+.proj__card {
+    max-width: 30%;
+    margin: 50px;
+}

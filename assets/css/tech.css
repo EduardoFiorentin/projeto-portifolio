@@ -1,10 +1,18 @@
 .tech {
     background-color: var(--black);
-    min-height: 100vh;
+    margin-bottom: 50px;
 }
+
+.tech__cards {
+    width: 70%;
+    max-width: 900px;
+    margin: auto;
+}
+
 .tech__card {
     display: inline-block;
     position: relative;
+    margin: 40px;
 }
 
 .card-percent {
