@@ -3,5 +3,8 @@ INICIO
 SOBRE MIM 
 
 PROJETOS 
+    projeto-gym - html e css - frontend
+    projeto-calculadora2 - html, css, js e regex - frontend
+    projeto-estoqueecautela - react, recoil, node, sql - frontend e backend
 
 HABILIDADES
