@@ -9,9 +9,10 @@
     width: 80%;
     margin: auto;
     margin-top: 50px;
+    align-items: center;
 }
 .about__info {
-    width: 40%;
+    width: 60%;
     margin-left: 50px;
     color: white;
     font-family: var(--font-kanit);
@@ -21,9 +22,12 @@
 .about__img {
     width: 300px;
     height: 300px;
-    background-color: red;
+    /* background-color: red; */
     margin-left: 50px;
     display: block;
+    /* border: 3px solid green; */
+    /* padding: 10px; */
+    border-left: 3px solid var(--dark-red);
 }
 .about__img-info-cont {
     margin-left: 200px;
@@ -31,18 +35,35 @@
 .about__cv {
     height: 60px;
     width: 140px;
+    background-color: var(--black);
     margin-left: 100px;
-    border-radius: 30px;
+    border-radius: 13px;
     font-weight: bold;
     font-size: 1.1rem;
     color: white;
-    background-color: var(--dark-red);
     font-family: var(--font-seymour-one);
     cursor: pointer;
     border: 2px solid white;
     align-self: center; 
     justify-self: flex-end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.about__cv:hover {
+    transition: 100ms;
+    background-color: var(--dark-brown);
+}
+
+.about__cv-icon {
+    margin-right: 10px;
+    width: 30px;
+}
+.about__cv-icon {
+    fill: var(--black);
+}
+
 .about__stat {
     color: white;
     font-family: var(--font-kanit);

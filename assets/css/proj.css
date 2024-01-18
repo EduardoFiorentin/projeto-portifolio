@@ -1,27 +1,55 @@
 .proj {
     background-color: var(--black);
-    min-height: 100vh;
-    min-width: 100vw;
+    /* min-height: 100vh; */
+    /* min-width: 100vw; */
+    width: 100vw;
     padding-top: 100px;
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    font-family: var(--font-kanit);
 }
 
-.proj_cards {
+.proj__cards {
     max-width: 1200px;
     width: 100%;
     align-self: center;
-    margin-top: 40px;
+    padding-top: 40px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    max-width: 900px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    justify-content: space-around;
+    align-self: center;
 }
 
 .proj__card {
-    max-width: 300px;
-    margin: 50px;
-    border: 1px solid var(--red);
-    border-radius: 20px;
-    height: auto;
+    /* max-width: 300px; */
+    /* margin:10px; */
+    /* border-left: 5px solid var(--red); */
+    /* border-radius: 20px; */
+    /* height: 400px; */
+    width: 400px;
+    transition: 100ms;
 }
+
+
+
+.cards__group {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+
+/* .proj__card:hover {
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba( 255, 0, 0, 0.17 );
+    border: 1px solid rgba( 255, 0, 0, 0.58 );
+    transform: scale(1.05);
+    transition: 100ms;
+} */
 
 .proj__card-title {
     color: white;
@@ -30,12 +58,18 @@
     padding-top: 30px;
 }
 .proj__image {
-    width: 90%;
+    width: 300px;
+    height: 200px;
     display: block;
     margin: auto;
-    border: 1px solid var(--red);
+    /* box-shadow: 4px var(--light-brown); */
     border-radius: 10px;
     margin-top: 10px;
+
+    /* 
+    box-shadow: -8px 10px 5px 0px rgba(231,0,0,0.33);
+    -webkit-box-shadow: -8px 10px 5px 0px rgba(231,0,0,0.33);
+    -moz-box-shadow: -8px 10px 5px 0px rgba(231,0,0,0.33); */
 }
 
 .proj__resume {
@@ -44,12 +78,23 @@
     text-align: center;
     /* padding-top: 30px;   */
     padding: 30px 10px 0px 10px;
+    word-wrap: break-word;
+    max-width: 300px;
+    justify-self: center;
+    margin-left: 38px;    
+}
 
+.proj__tech {
+    padding-left: 50px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: var(--dark-red);
 }
 
 .proj__icons {
     width: 90%;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     display: flex;
     /* flex-direction: row; */
     justify-content: center;

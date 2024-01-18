@@ -43,7 +43,7 @@
     transition: 200ms;
     position: absolute;
     z-index: 3;
-    margin-left: 2rem;
+    margin-left: 100px;
     height: 70%;
     font-size: 1.5rem;
     line-height: 2rem;
@@ -100,12 +100,12 @@
     width: 100%;
 }
 .header__background-1 {
-    width: 85%;
-    max-width: 900px;
+    width: 1000000px;
+    /* max-width: 900px; */
     height: 70vh;
     transform: skewX(30deg);
     position: relative;
-    left: -300px;
+    left: -500px;
     background-color: var(--dark-brown);
 }
 

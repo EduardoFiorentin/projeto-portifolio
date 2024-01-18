@@ -6,10 +6,35 @@
 .tech__cards {
     width: 70%;
     max-width: 900px;
-    margin: auto;
+    margin: 50px auto 0px auto;
+    display: flex;
+    flex-direction: column;
+}
+.tech__card-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 50px;
 }
 
 .tech__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tech__icon path {
+    /* transform: scale(1); */
+    width: 100%;
+    height: 100%;
+}
+
+.tech__name {
+    font-family: var(--font-kanit);
+    color: white;
+    margin-top: 10px;
+}
+/* .tech__card {
     display: inline-block;
     position: relative;
     margin: 40px;
@@ -68,4 +93,5 @@
 .card__items-img {
     height: 50px;
     width: 50px;
-}
+} */
+

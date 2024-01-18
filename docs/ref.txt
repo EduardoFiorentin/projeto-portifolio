@@ -7,4 +7,11 @@ PROJETOS
     projeto-calculadora2 - html, css, js e regex - frontend
     projeto-estoqueecautela - react, recoil, node, sql - frontend e backend
 
-HABILIDADES
+
+
+IDEIAS 
+    colocar icones de download no link do about
+    simplificar botão - apenas borda colorida, icones brancos, botão mais quadrado
+
+    melhorar cards de experiencia 
+    
