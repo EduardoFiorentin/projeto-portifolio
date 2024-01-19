@@ -32,6 +32,11 @@
 .about__img-info-cont {
     margin-left: 200px;
 }
+.about__cv-container {
+    background-color: var(--black);
+    border: none;
+}
+
 .about__cv {
     height: 60px;
     width: 140px;
