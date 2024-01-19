@@ -140,3 +140,62 @@
     top: 10px;
     right: 10px;
 }
+
+
+@media screen and (max-width: 1024px) {
+    .header__background-1 {
+        left: -300px;
+        /* background-color: red; */
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .header__info-hello {
+        font-size: 1.7rem;
+        margin-left: 10%;
+    }
+    .header__info-name {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .header__info-func {
+        font-size: 1.3rem;
+    }
+    .header__info {
+        width: 100vw;
+        margin: 0;
+    }
+    .header__background-1 {
+        left: -130px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .header__info-hello {
+        font-size: 1.3rem;
+        
+    }
+    .header__info-name {
+        font-size: 1.7rem;
+    }
+    .header__info-func {
+        font-size: 1.2rem;
+        
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .header__info-hello {
+        font-size: 1rem;
+        
+    }
+    .header__info-name {
+        font-size: 1.2rem;
+        padding: 0;
+    }
+    .header__info-func {
+        font-size: .8rem;
+        
+    }
+}

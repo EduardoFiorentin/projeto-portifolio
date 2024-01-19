@@ -18,6 +18,10 @@ html {
     background-color: var(--black);
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .title__config {
     color: var(--dark-red); 
     font-family: var(--font-arvo);
@@ -25,4 +29,39 @@ html {
     font-weight: bold;
     padding: 20px;
     padding-left: 40px;
+}
+
+@media screen and (max-width: 440px) {
+    .title__config {
+        padding: 20px;
+    }
+}
+
+
+/* esconder */
+.header {
+    /* display: none; */
+}
+
+.about {
+    /* display: none; */
+}
+
+.tech {
+    /* display: none; */
+}
+
+.exp {
+    /* display: none; */
+}
+
+
+/* 
+deletar exp e proj
+*/
+
+@media screen and (max-width: 900px) {
+    nav {
+        display: none;
+    }
 }

@@ -9,6 +9,8 @@
     flex-direction: column;
     padding-bottom: 50px;
     font-family: var(--font-kanit);
+
+    /* display: none; */
 }
 
 .proj__cards {
@@ -111,4 +113,22 @@
 
 .proj__link:not(:last-child) {
     margin-right: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .cards__group {
+        flex-direction: column;
+        margin: auto;
+    }
+    .proj__card {
+        margin-bottom: 50px;
+    }
+    .proj__card:nth-child(3) {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    
 }

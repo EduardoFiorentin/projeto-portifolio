@@ -26,13 +26,14 @@
     <title>Eduardo - Portifolio</title>
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="header">
         <nav>
             <ul class="menu__navbar">
-                <li class="menu__link" onclick="Reload"><a href="">Inicio</a></li>
+                <li class="menu__link"><a href="#header">Inicio</a></li>
                 <li class="menu__link"><a href="#about">Sobre mim</a></li>
-                <li class="menu__link"><a href="">Projetos</a></li>
-                <li class="menu__link"><a href="">Habilidades</a></li>
+                <li class="menu__link"><a href="#tech">Tecnologias</a></li>
+                <li class="menu__link"><a href="#exp">Experiências</a></li>
+                <li class="menu__link"><a href="#proj">Projetos</a></li>
             </ul>
             <div class="header__underline"></div>
         </nav>
@@ -74,7 +75,7 @@
             </p>
         </div>
         <div class="about__stats">
-            <div style="display: flex;">
+            <div class="about__stats-container">
                 <div class="about__contacts">
                     <p class="about__stat"><span class="about__stat-name">Nome: </span>Eduardo Fiorentin</p>
                     <p class="about__stat"><span class="about__stat-name">Formação: </span>Ciência da Computação - UFFS - 2/4</p>
@@ -99,7 +100,7 @@
         </div>
         
     </section>
-    <section class="tech">
+    <section class="tech" id="tech">
         <h2 class="tech__title title__config">Tecnologias</h2>
         <div class="tech__cards">
                
@@ -200,7 +201,7 @@
         Projetos:   Site da FT
                     Projetos pessoais
      -->
-    <section class="exp">
+    <section class="exp" id="exp">
         <h2 class="exp__title title__config">Experiências</h2>
         <div class="exp__cards">
             <div class="exp__card">
@@ -216,7 +217,7 @@
         </div>
     </section>
 
-    <section class="proj">
+    <section class="proj" id="proj">
         <h2 class="proj__title title__config">Projetos</h2>
 
         <div class="proj__cards">
