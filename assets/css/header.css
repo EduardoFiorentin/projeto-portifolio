@@ -33,7 +33,7 @@
     display: flex;
 }
 .menu__link a:hover {
-    color: var(--dar);
+    color: var(--dark-red);
 }
 
 .header__scrollToTopBtn {
