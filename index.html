@@ -28,8 +28,10 @@
 <body>
     <header class="header" id="header">
         <nav class="header__menu" id="navbar">
-            <ul class="menu__navbar">
-                <li class="menu__link"><a href="#header">Inicio</a></li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none" class="header__toggle-menu">
+                <path d="M6.66675 10H33.3334M6.66675 20H33.3334M6.66675 30H33.3334" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <ul class="menu__hide menu__navbar">
                 <li class="menu__link"><a href="#about">Sobre mim</a></li>
                 <li class="menu__link"><a href="#tech">Tecnologias</a></li>
                 <li class="menu__link"><a href="#exp">Experiências</a></li>
@@ -61,9 +63,6 @@
                 </div>
             </div>
         </div>
-        <!-- <div class="header__background">
-            <div class="header__background-1"></div>
-        </div> -->
     </header>
 
 
@@ -199,11 +198,6 @@
 
         </div>
     </section>
-    <!-- 
-        Experiencias:   Assessor e diretor de projetos na FT 
-        Projetos:   Site da FT
-                    Projetos pessoais
-     -->
     <section class="exp" id="exp">
         <h2 class="exp__title title__config">Experiências</h2>
         <div class="exp__cards">
@@ -308,5 +302,6 @@
 
     <script src="./assets/js/backToTop.js"></script>
     <script src="./assets/js/smoothScroll.js"></script>
+    <script src="./assets/js/menuController.js"></script>
 </body>
 </html>

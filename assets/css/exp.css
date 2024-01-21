@@ -1,11 +1,9 @@
 .exp {
     background-color: var(--black);
-    /* min-height: 100vh; */
     font-family: var(--font-kanit);
     display: flex;
     flex-direction: column;
     margin-bottom: 100px;
-    /* display: none; */
 }
 .exp__cards {
     display: flex;
@@ -15,7 +13,6 @@
 }
 .exp__card {
     color: white;
-    /* display: inline-block; */
     display: flex;
     flex-direction: column;
     cursor: default;
@@ -23,11 +20,8 @@
     padding: 20px 10px;
     width: 200px;
     align-items: center;
-    /* border: 1px solid white;
-    border-radius: 20px; */
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 13.5px );
-    -webkit-backdrop-filter: blur( 13.5px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     transition: 100ms;
@@ -52,11 +46,6 @@
     padding: 10px 0px;
 }
 
-@media screen and (max-width: 1024px) {
-    
-}
-
-
 @media screen and (max-width: 768px) {
     .exp__cards {
         flex-direction: column;
@@ -64,8 +53,4 @@
     .exp__card:not(:first-child) {
         margin-top: 50px;
     }
-}
-
-@media screen and (max-width: 440px) {
-    
 }

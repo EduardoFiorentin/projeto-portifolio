@@ -2,23 +2,25 @@
     width: 100vw;
     height: 100vh;
     border-bottom: 1px solid white;
-    background-image: url("../images/header__back.png");
+    background-image: url("../images/header__back1.png ");
     background-position: left top;
     background-repeat: no-repeat;
     background-size: cover;
     background-clip: content-box;
+    font-family: var(--font-kanit);
+
+}
+.header__toggle-menu {
+    display: none;
 }
 .header__menu {
     margin-right: 50px;
-    font-family: var(--font-kanit);
     font-weight: bold;
 }
 .menu__navbar {
-
-    display: flex;
     width: 100%;
     justify-content: flex-end;
-    
+    display: flex;
 }
 .menu__link {
     padding: 1rem;
@@ -27,12 +29,14 @@
     color: white;
     text-decoration: none;
 }
+.menu__hide {
+    display: flex;
+}
 .menu__link a:hover {
     color: var(--dar);
 }
 
 .header__scrollToTopBtn {
-    display: block;
     position: fixed;
     font-family: var(--font-kanit);
     bottom: 20px;
@@ -44,6 +48,7 @@
     padding: 10px;
     cursor: pointer;
     font-size: 16px;
+    z-index: 1;
 }
 
 .header__info {
@@ -59,17 +64,12 @@
     
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     justify-content: center;
 
-}
-.header__info-hello {
-    font-family: var(--font-kanit);
 }
 
 .header__info-func {
     align-self: center;
-    font-family: var(--font-kanit);
 }
 .header__icons {
     display: flex;
@@ -104,63 +104,11 @@
 }
 
 
-.header__background {
-    background-color: var(--light-brown);
-    display: flex;
-    width: 100%;
-}
-.header__background-1 {
-    width: 1000000px;
-    /* max-width: 900px; */
-    height: 70vh;
-    transform: skewX(30deg);
-    position: relative;
-    left: -500px;
-    background-color: var(--dark-brown);
-}
-
-
-.header__img-container {
-    width: 400px;
-    height: 300px;
-    display: flex;
-    background-image: url('../images/fundo\ marrom.png');
-    background-position: center;
-    background-size: contain;
-    flex-direction: row;
-    background-repeat: no-repeat;
-    position: absolute;
-    z-index: 3;
-    right: 200px;
-    top: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.header__img {
-    background-image: url('../images/pexels-marta-branco-1194713.jpg');
-    width: 250px;
-    height: 250px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 300px;
-    border: 1px solid white;
-    position: relative;
-    top: 10px;
-    right: 10px;
-}
-
-
-@media screen and (max-width: 1024px) {
-    .header__background-1 {
-        left: -300px;
-        /* background-color: red; */
-    }
-}
-
 
 @media screen and (max-width: 768px) {
+    .header {
+        position: relative;
+    }
     .header__info-hello {
         font-size: 1.7rem;
         margin-left: 10%;
@@ -178,6 +126,30 @@
     }
     .header__background-1 {
         left: -130px;
+    }
+
+    /* menu */
+    .header__menu {
+        position: absolute;
+        z-index: 6;
+    }
+    .menu__link {
+        margin-left: 10px;
+    }
+    .header__toggle-menu {
+        display: block;
+        width: 40px;
+        margin: 10px 0 0 10px;
+    }
+    .menu__navbar {
+        flex-direction: column;
+        background-color: var(--background-menu);
+        width: auto;
+        font-size: 1.5rem;
+    }
+
+    .menu__hide {
+        display: none;
     }
 }
 

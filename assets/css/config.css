@@ -8,7 +8,7 @@
     --dark-grey: #3B3C40; 
 
     --black: #181313; 
-    /* --black: #1d1414;  */
+    --background-menu: #181313e5;
 
     --font-seymour-one : 'Seymour One', sans-serif;
     --font-kanit : 'Kanit', sans-serif;
@@ -17,7 +17,6 @@
 
 html {
     background-color: var(--black);
-    /* scroll-behavior: smooth; */
 }
 
 body {
@@ -33,6 +32,22 @@ body {
     padding-left: 40px;
 }
 
+
+
+body::-webkit-scrollbar {
+    width: 15px;      
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: var(--dark-brown);        
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--dark-red);    
+    border: 1px solid orange;  
+
+}
+
 @media screen and (max-width: 440px) {
     .title__config {
         padding: 20px;
@@ -41,34 +56,5 @@ body {
 @media screen and (max-width: 320px) {
     .title__config {
         font-size: 1.5rem;
-    }
-}
-
-
-/* esconder */
-.header {
-    /* display: none; */
-}
-
-.about {
-    /* display: none; */
-}
-
-.tech {
-    /* display: none; */
-}
-
-.exp {
-    /* display: none; */
-}
-
-
-/* 
-deletar exp e proj
-*/
-
-@media screen and (max-width: 900px) {
-    nav {
-        display: none;
     }
 }

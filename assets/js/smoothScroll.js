@@ -17,7 +17,7 @@ function scrollToSection(event) {
 
 function smoothScrollTo (endY) {
     const startY = window.scrollY || window.pageYOffset
-    const positionVariation = 20
+    const positionVariation = 50
     var realTimePosition = startY
 
     const timer = setInterval(() => {

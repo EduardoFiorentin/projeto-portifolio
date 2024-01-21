@@ -1,6 +1,10 @@
 document.addEventListener("DOMContentLoaded", function () {
     var scrollToTopBtn = document.querySelector(".header__scrollToTopBtn");
-    // console.log(scrollToTopBtn)
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      scrollToTopBtn.style.display = "block";
+    } else {
+      scrollToTopBtn.style.display = "none";
+    }
   
     window.onscroll = function () {
       // Mostrar ou ocultar o botão com base no scroll
