@@ -35,8 +35,11 @@
 .about__cv-container {
     background-color: var(--black);
     border: none;
+    padding-right: 30%;
 }
-
+.about__contacts {
+    padding-left: 50px;
+}
 .about__cv {
     height: 60px;
     width: 140px;
@@ -54,6 +57,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
 }
 
 .about__cv:hover {
@@ -74,10 +78,17 @@
     font-family: var(--font-kanit);
     line-height: 2rem;
     font-size: 1rem;
-    margin-left: 200px;
+    width: 100%;
+    /* margin-left: 200px; */
+    /* justify-self: center; */
+    display: flex;
+    justify-content: center;
 }
 .about__stats-container {
     display: flex;
+    justify-content: space-between;
+    width: 80%;
+    /* align-self: center; */
 }
 .about__contacts {
     margin-top: 30px;
@@ -119,11 +130,12 @@
 
     .about__stats-container {
         flex-direction: column;
-        margin: auto;
+        /* margin: auto; */
     }
 
     .about__contacts {
         margin: 0;
+        padding-left: 0;
         width: 100%;
         
     }
@@ -139,5 +151,11 @@
 }
 
 @media screen and (max-width: 440px) {
-    
+    .about__img {
+        width: 100%;
+        height: auto;
+    }
+    .about__info-cont {
+        
+    }
 }

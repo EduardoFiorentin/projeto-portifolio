@@ -7,7 +7,8 @@
     --light-grey: #7B868C; 
     --dark-grey: #3B3C40; 
 
-    --black: #1d1414; 
+    --black: #181313; 
+    /* --black: #1d1414;  */
 
     --font-seymour-one : 'Seymour One', sans-serif;
     --font-kanit : 'Kanit', sans-serif;
@@ -16,6 +17,7 @@
 
 html {
     background-color: var(--black);
+    /* scroll-behavior: smooth; */
 }
 
 body {
@@ -34,6 +36,11 @@ body {
 @media screen and (max-width: 440px) {
     .title__config {
         padding: 20px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .title__config {
+        font-size: 1.5rem;
     }
 }
 
